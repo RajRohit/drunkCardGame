@@ -120,9 +120,9 @@ function getCardFromStack(number){
       }
       selectedCard.push(card);
     }
-    // else if(number){
-    //   ++number;
-    // }
+    else if(number){
+      ++number;
+    }
     else {
       /** If can not assign radomly in 10 try, use brute force */
       let cardList = Object.keys(cardDeck);
