@@ -120,7 +120,7 @@ function getCardFromStack(number){
       }
       selectedCard.push(card);
     }
-    else if(number){
+    else if(number<10){
       ++number;
     }
     else {
